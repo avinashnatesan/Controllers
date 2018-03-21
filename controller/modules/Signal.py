@@ -410,4 +410,5 @@ class Signal(ControllerModule):
             self._log("Terminating XMPP transport for overlay {}".format(overlay_id))
             self._circles[overlay_id]["Transport"].shutdown()
         #for k in self._cfx_handle._owned_cbts.keys():
-        #    self.free_cbt(self._cfx_handle._owned_cbts[k]) 
+        #    self.free_cbt(self._cfx_handle._owned_cbts[k])
+        
